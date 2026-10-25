@@ -1,0 +1,9 @@
+[
+  {"field_name": "合同名称", "field_type": 0, "field_description": "合同的完整正式名称", "extraction_example": "XX公司锅炉定作合同"},
+  {"field_name": "合同编号", "field_type": 0, "field_description": "合同的编号或文号", "extraction_example": "RZ-2025-006"},
+  {"field_name": "甲方", "field_type": 5, "field_description": "合同甲方（采购方/定作方）全称", "extraction_example": "XX锅炉股份有限公司"},
+  {"field_name": "乙方", "field_type": 6, "field_description": "合同乙方（供应方/承揽方）全称", "extraction_example": "XX制造有限公司"},
+  {"field_name": "合同金额", "field_type": 3, "field_description": "合同总价，含税优先，注明是否含税", "extraction_example": "人民币1280000元（含税）"},
+  {"field_name": "签订日期", "field_type": 4, "field_description": "合同签订日期", "extraction_example": "2025-06-04"},
+  {"field_name": "交货地点", "field_type": 0, "field_description": "约定交货或交付地点", "extraction_example": "XX省XX市XX区工业园X号仓库"}
+]

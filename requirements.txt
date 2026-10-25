@@ -1,0 +1,9 @@
+# 个人版依赖（全部开源，pip 直接安装）
+pymupdf>=1.24          # PDF 解析（文本层 + 字符坐标 + 表格识别）
+python-docx>=0.8.11    # DOCX 解析
+openai>=1.30           # LLM 接入（任意 OpenAI 兼容服务）
+pydantic>=2.0          # 数据建模
+loguru>=0.7            # 日志
+environs>=10           # .env / 环境变量配置
+python-Levenshtein>=0.25  # 定位回退时的编辑距离匹配
+aiohttp>=3.9           # 异步 HTTP（备用）
